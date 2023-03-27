@@ -1,0 +1,34 @@
+
+@use 'variables';
+
+.recursoslog{
+    background-image: url('../img/recursoslog.jpg');
+    background-size: cover;
+}
+
+
+
+.reclog {
+
+    background-color: variables.$colorfondo;
+    justify-content: center center;
+    color: variables.$colortext;
+
+    .titulo {
+        font-size: variables.$size-title;
+        text-align: center;
+    }
+
+    .texto{
+        font-size: 2rem;
+    }
+}
+
+.info{
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    color: variables.$colortext;
+    background-color: rgb(27,28,37);
+    width: 100%;
+
+}

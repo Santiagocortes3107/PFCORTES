@@ -1,0 +1,58 @@
+@use 'variables';
+
+.nosarglog {
+    background-image: url('../img/nosotros.jpg');
+    background-size: cover;
+}
+
+.nosotros1{
+    background-image: url('../img/nosotroscelu.jpg');
+    background-size: cover;
+}
+
+@media screen and (max-width: 980px) {
+    .nosarglog {
+    display: none;
+    }
+    }
+
+@media screen and (min-width: 980px) {
+ .nosotros1 {
+ display: none;
+   }
+}
+
+
+
+.nos{
+    color: variables.$colortext;
+    font-size: variables.$size-title;
+    font-family: variables.$font-titulo;
+}
+
+.accordion-button{    
+    background-color: rgb(16,20,40);
+    color: variables.$colortext;
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+
+}
+
+.accordion-item {
+    background-color: black;
+    color: variables.$colortext;
+    font-size: 2rem;
+    font-family: variables.$font-titulo;
+}
+
+.info{
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    color: variables.$colortext;
+    background-color: rgb(27,28,37);
+    width: 100%;
+
+}
+
+
+

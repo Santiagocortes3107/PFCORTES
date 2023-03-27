@@ -1,0 +1,41 @@
+@use 'variables';
+
+
+.rrhh {
+    background-image: url('../img/trabajaconnos.jpg');
+    background-size: cover;
+}
+
+.start{
+    background-image: url(../img/trabajaconnoscelu.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 980px) {
+    .rrhh {
+    display: none;
+    }
+    }
+
+@media screen and (min-width: 980px) {
+ .start {
+ display: none;
+   }
+}
+
+.curriculum {
+    font-size: variables.$size-title;
+    font-family: variables.$font-titulo;
+    background-color: variables.$colorfondo;
+    color: variables.$colortext;
+    justify-content: center center;
+}
+
+.info{
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    color: variables.$colortext;
+    background-color: rgb(27,28,37);
+    width: 100%;
+
+}

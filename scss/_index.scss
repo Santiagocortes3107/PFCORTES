@@ -1,0 +1,127 @@
+@use 'variables';
+
+/* reset estilos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    html {
+
+      font-size: 62.5%;
+    }
+
+    header {
+
+        align-items: top;
+        border: variables.$size-subtitle;
+     
+    nav{
+
+        font-size: variables.$size-title;
+        justify-content: space-evenly;
+        color: variables.$colortext;
+
+    .navbar-collapse{ 
+            font-family: variables.$font-titulo;
+            font-size: variables.$size-subtitle;
+            justify-content: space-evenly;
+            color: variables.$colortext;
+        }
+
+    .nav-item {
+        background-color: variables.$colorfondo;
+        font-family: variables.$font-titulo;
+        font-size: variables.$size-subtitle;
+        color: variables.$colortext;
+    }
+
+    .dropdown-item{
+        font-family: variables.$font-titulo;
+        font-size: 1.5rem;
+        background-color: black;
+        color: variables.$colortext;
+    }
+    }
+
+    .black{
+       background-image: url('../img/bannercelu.jpg');
+       background-size: cover;
+     }
+
+    .banner-image{
+        background-image: variables.$imgbanner;
+        background-size: cover;
+    }
+}
+
+        body { 
+            height: 100vh;
+            width: 100vw;
+            background: variables.$colorfondo;
+            background-position: center top;
+            background-size: cover;
+
+            .mision{
+                font-size: variables.$size-title;
+                font-family: variables.$font-titulo;
+                color: #dddddd;
+                background-image: -webkit-linear-gradient(0deg, #dddddd 0%,#ffffff 100%);
+                background-clip: text;
+               -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+            }
+
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+            main{ 
+                div{ 
+                    height: 100%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .texto1 { 
+                        font-size: variables.$size-title;
+                        font-family: variables.$font-titulo;
+                        background-color: variables.$colorfondo;
+                        color: variables.$colortext;
+
+                        
+                        
+                    }
+                }
+            }
+
+            
+            .piedepag {
+                color: variables.$colortext;
+                font-size: 2rem;
+            }
+         }
+
+         @media screen and (max-width: 980px) {
+            .banner-image {
+            display: none;
+            }
+            }
+
+        @media screen and (min-width: 980px) {
+         .black {
+         display: none;
+           }
+        }
+
+        .info{
+            font-size: variables.$size-subtitle;
+            font-family: variables.$font-titulo;
+            color: variables.$colortext;
+            background-color: rgb(27,28,37);
+            width: 100%;
+
+        }

@@ -1,0 +1,26 @@
+@use 'variables';
+
+.depositos{
+    background-image: url('../img/almacenamiento.jpg');
+    background-size: cover;
+}
+
+
+
+
+.almacena {
+    font-size: variables.$size-title;
+    background-color: variables.$colorfondo;
+    color: variables.$colortext;
+    justify-content: center center;
+    font-family: variables.$font-titulo;
+}
+
+.info{
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    color: variables.$colortext;
+    background-color: rgb(27,28,37);
+    width: 100%;
+
+}

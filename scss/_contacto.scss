@@ -1,0 +1,79 @@
+@use 'variables';
+
+
+.celular{
+    background-image: url('../img/contacto.jpg');
+    background-size: cover;
+}
+
+.contactocel{
+    background-image: url('../img/contactocelu.jpg');
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 980px) {
+    .celular {
+    display: none;
+    }
+    }
+
+@media screen and (min-width: 980px) {
+ .contactocel {
+ display: none;
+   }
+}
+
+.fondoform {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: variables.$colortext;
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    
+
+    .contacto {
+        font-size: variables.$size-title;
+        
+    }
+
+    .nunca {
+        font-size: 2rem;
+        color: wheat;
+    }
+
+    .client {
+        font-size: 3rem;
+    }
+
+    .pww { 
+        font-size: 3rem;
+    }
+
+    .asunt {
+        font-size: 2rem;
+    }
+
+    .enque {
+        font-size: 2rem;
+    }
+
+    .ingresotexto {
+        font-size: 2rem;
+    }
+
+    .enviar {
+        font-size: 2rem;
+    }
+}
+
+.info{
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    color: variables.$colortext;
+    background-color: rgb(27,28,37);
+    width: 100%;
+
+}

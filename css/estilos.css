@@ -1,0 +1,295 @@
+/* reset estilos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  align-items: top;
+  border: 4rem;
+}
+header nav {
+  font-size: 6rem;
+  justify-content: space-evenly;
+  color: white;
+}
+header nav .navbar-collapse {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  justify-content: space-evenly;
+  color: white;
+}
+header nav .nav-item {
+  background-color: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  color: white;
+}
+header nav .dropdown-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+header .black {
+  background-image: url("../img/bannercelu.jpg");
+  background-size: cover;
+}
+header .banner-image {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  background-position: center top;
+  background-size: cover;
+}
+body .mision {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  color: #dddddd;
+  background-image: -webkit-linear-gradient(0deg, #dddddd 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body img {
+  height: 100%;
+  width: 100%;
+}
+body main div {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+body main div .texto1 {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  color: white;
+}
+body .piedepag {
+  color: white;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+  .banner-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px) {
+  .black {
+    display: none;
+  }
+}
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+.depositos {
+  background-image: url("../img/almacenamiento.jpg");
+  background-size: cover;
+}
+
+.almacena {
+  font-size: 6rem;
+  background-color: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  color: white;
+  justify-content: center center;
+  font-family: "Roboto", sans-serif;
+}
+
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+.celular {
+  background-image: url("../img/contacto.jpg");
+  background-size: cover;
+}
+
+.contactocel {
+  background-image: url("../img/contactocelu.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 980px) {
+  .celular {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px) {
+  .contactocel {
+    display: none;
+  }
+}
+.fondoform {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+.fondoform .contacto {
+  font-size: 6rem;
+}
+.fondoform .nunca {
+  font-size: 2rem;
+  color: wheat;
+}
+.fondoform .client {
+  font-size: 3rem;
+}
+.fondoform .pww {
+  font-size: 3rem;
+}
+.fondoform .asunt {
+  font-size: 2rem;
+}
+.fondoform .enque {
+  font-size: 2rem;
+}
+.fondoform .ingresotexto {
+  font-size: 2rem;
+}
+.fondoform .enviar {
+  font-size: 2rem;
+}
+
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+.nosarglog {
+  background-image: url("../img/nosotros.jpg");
+  background-size: cover;
+}
+
+.nosotros1 {
+  background-image: url("../img/nosotroscelu.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 980px) {
+  .nosarglog {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px) {
+  .nosotros1 {
+    display: none;
+  }
+}
+.nos {
+  color: white;
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.accordion-button {
+  background-color: rgb(16, 20, 40);
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.accordion-item {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+.recursoslog {
+  background-image: url("../img/recursoslog.jpg");
+  background-size: cover;
+}
+
+.reclog {
+  background-color: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  justify-content: center center;
+  color: white;
+}
+.reclog .titulo {
+  font-size: 6rem;
+  text-align: center;
+}
+.reclog .texto {
+  font-size: 2rem;
+}
+
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+.rrhh {
+  background-image: url("../img/trabajaconnos.jpg");
+  background-size: cover;
+}
+
+.start {
+  background-image: url(../img/trabajaconnoscelu.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 980px) {
+  .rrhh {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px) {
+  .start {
+    display: none;
+  }
+}
+.curriculum {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: linear-gradient(90deg, rgb(0, 5, 11) 0%, rgb(2, 14, 28) 70%, rgb(0, 5, 11) 100%);
+  color: white;
+  justify-content: center center;
+}
+
+.info {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(27, 28, 37);
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
